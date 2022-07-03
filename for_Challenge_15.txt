@@ -1,0 +1,11 @@
+For challenge 15
+
+## Linear Regression to Predict MPG (Three questions addressed. Need Linear regression image. 
+
+In this linear regression, we can see that the larger P values occur for the categories of AWD, vehicle weight, and spoler angle. This would indicate that these design factors have the least significant relationship to MPG rating, which is a surprising discovery. 
+???Is the slope of the linear model considered to be zero? Why or why not? Not sure how to answer this???
+The Multiple R-squared value of 0.7149 woould indicate that this regression is an adequate predicotr of MPG in the prototypes, but considering the importance of this study, and the surprising nature of the reslults, more investigation is indicated. 
+
+
+## Summary Statistics on Suspension Coils
+Although the average variance in PSI for the prototype suspension coils meets the standard of <100 PSI, the relatively high average indicates a need for further investigation. When looking at the Vaiance by lot number, we can see that Manufactuing Lot number 1 was extremely successfil in meeting this parameter, with a variance of only .98. On the other hand, Lat 3 was extremely problematic, wit a Vairance of 170PSI, well over the standard of 100 PSI. This information indicates that there must be furthing investigation into the mafacturing of the protoypes in Lot 3, particularly in the suspension coils.  
