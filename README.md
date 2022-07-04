@@ -32,9 +32,9 @@ Lot 2 had a lower P value, but still above the level of .05, and that there is s
 
 ![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Ttest_Lot1.png)
 
-![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Ttest_Lot2.png)
+![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Ttest.Lot2.png)
 
-![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Ttest_Lot3.png)
+![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Ttest.Lot3.png)
 
 ## Study Design: MechaCar vs Competition
 
