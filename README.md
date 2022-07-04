@@ -3,8 +3,8 @@ For challenge 15
 
 ## Linear Regression to Predict MPG (Three questions addressed. Need Linear regression image. 
 
-In this linear regression, we can see that the larger P values occur for the categories of AWD, vehicle weight, and spoiler angle. This would indicate that these design factors have the least significant relationship to MPG rating, which is a surprising discovery.The P values for Vehicle lenght, and ground clearance are far lower than than the .05 benchmark, indicating that these factors have signinficant impact on MPG. 
-???Is the slope of the linear model considered to be zero? Why or why not? Not sure how to answer this???
+In this linear regression, we can see that the larger P values occur for the categories of AWD, vehicle weight, and spoiler angle. This would indicate that these design factors have the least significant relationship to MPG rating, which is a surprising discovery.The P values for Vehicle length, and ground clearance are far lower than than the .05 benchmark, indicating that these factors have signinficant impact on MPG. 
+
 The Multiple R-squared value of 0.7149 woould indicate that this regression is an adequate predictor of MPG in the prototypes, but considering the importance of this study, and the surprising nature of the reslults, more investigation is indicated. 
 
 ![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Linear%20regression%20for%20deliverable%201.png)
@@ -38,7 +38,7 @@ Lot 2 had a lower P value, but still above the level of .05, and that there is s
 
 ## Study Design: MechaCar vs Competition
 
-In my next testing, I would concentrate on the mpg fo the MechaCar vs the Competition. I would use Simple Linear Regression to see if mpg was affected by the factors of weight, spoiler angle, and AWD in other car models. This would help to identify if these factors are generally an influence on MPG, and if so, show the need of more investigation of these factors and mpg in the MechaCar samples. In order to do this testing, we need a data set of these variables in at least 4 competitor car models. 
+In my next testing, I would concentrate on the mpg for the MechaCar vs the Competition. I would use Multiple Linear Regression to see if mpg was affected by the factors of weight, spoiler angle, and AWD in other car models. This would help to identify if these factors are generally an influence on MPG, and if so, show the need to investigate why these factors are not influencing the mpg in the MechaCar samples. In order to do this testing, we need a data set of these variables in at least 4 competitor car models. 
 
   
 
