@@ -7,18 +7,34 @@ In this linear regression, we can see that the larger P values occur for the cat
 ???Is the slope of the linear model considered to be zero? Why or why not? Not sure how to answer this???
 The Multiple R-squared value of 0.7149 woould indicate that this regression is an adequate predictor of MPG in the prototypes, but considering the importance of this study, and the surprising nature of the reslults, more investigation is indicated. 
 
+![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Linear%20regression%20for%20deliverable%201.png)
 
 ## Summary Statistics on Suspension Coils
 Although the average variance in PSI for the prototype suspension coils meets the standard of <100 PSI, the relatively high average indicates a need for further investigation. When looking at the Vaiance by lot number, we can see that Manufactuing Lot number 1 was extremely successfil in meeting this parameter, with a variance of only .98. On the other hand, Lat 3 was extremely problematic, wit a Vairance of 170PSI, well over the standard of 100 PSI. This information indicates that there must be furthing investigation into the mafacturing of the protoypes in Lot 3, particularly in the suspension coils.
+
+![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Summary_Table%20_for_Deliverable2.png)
+
+![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Summary_By_Manuf.Lot_Deliverable2.png)
+
 
 
 ## T-Tests on Suspension Coils
 #One Sample T Test 
 In the One Sample T test comparing a set of 30 randomly chosen car prototypes to the entire popultation (shown below) our P-value of 0.03662 is below the assumed significance level 0.05. Therefore we can state that the two means are not statistically different.
 
+
+![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Ttest1.A.png)
+
+
 # Two Sample T Test
 In the Two Sample T test, testing a subset of the population to each of the Manufacturing Lot groups, the results were very inconsistent. In the test of Lot 1, the p value of the test was 1, indicating that testing data was not reliable and that random chance is involved in. 
 Lot 2 had a lower P value, but still above the level of .05, and that there is some interference in the data. The most reliable of the three data sets is Set 3, where the P value is lower than .05. This does not correspond with the information we saw earier regarding Manufacturing Lots and mena. 
+
+![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Ttest_Lot1.png)
+
+![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Ttest_Lot2.png)
+
+![This is an image](https://github.com/yvoatelep/MechaCar_Statistical_Analysis/blob/main/Images/Ttest_Lot3.png)
 
 ## Study Design: MechaCar vs Competition
 
