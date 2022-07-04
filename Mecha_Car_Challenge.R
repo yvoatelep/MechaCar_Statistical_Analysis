@@ -16,10 +16,10 @@ Total_Summary <- Suspension_Coil_Table %>% group_by()%>% summarize(Mean_PSI=mean
 #sample_table <- population_table %>% sample_n(50) #randomly sample 50 data points
 sample_table <-Suspension_Coil_Table %>% sample_n(30)
 
-t.test(log10(sample_table$PSI),mu=mean(log10(Suspension_Coil_Table$PSI))) #compare sample versus population means
+t.test(sample_table$PSI,mu=1500) #compare sample versus population means
 
-#mpg_1999 <- mpg_data %>% filter(year==1999) #select only data points where the year is 1999
-#mpg_2008 <- mpg_data %>% filter(year==2008) #select only data points where the year is 2008
+#mpg_1999 <- mpg_data %>% filter(year==1999) #example to filter tables
+
 
 Sus_coil_lot1 <-Suspension_Coil_Table %>% filter(Manufacturing_Lot=="Lot1") #select only data points from lot 1
 
@@ -27,10 +27,17 @@ Sus_coil_lot2 <-Suspension_Coil_Table %>% filter(Manufacturing_Lot=="Lot2") #sel
 
 Sus_coil_lot3 <-Suspension_Coil_Table %>% filter(Manufacturing_Lot=="Lot3") #select only data points from lot 3
 
-Sus_Coil_Sample <-Suspension_Coil_Table %>% sample_n(50)
+Sus_Coil_Sample <-Suspension_Coil_Table %>% sample_n(50)#create 50 item sampling for t test
 
-#t.test(mpg_1999$hwy,mpg_2008$hwy,paired = T) #compare the mean difference between two samples
-t.test(Sus_Coil_Sample$PSI,Sus_coil_lot1$PSI,paired = T) #compare the mean difference between two samples
-t.test(Sus_Coil_Sample$PSI,Sus_coil_lot2$PSI,paired = T) #compare the mean difference between two samples
-t.test(Sus_Coil_Sample$PSI,Sus_coil_lot3$PSI,paired = T) #compare the mean difference between two samples
+#t.test(mpg_1999$hwy,mpg_2008$hwy,paired = T) #Example for paired Ttest mean difference between two samples
+#t.test(Sus_Coil_Sample$PSI,Sus_coil_lot1$PSI,paired = T) #compare the mean difference between two samples
+#t.test(Sus_Coil_Sample$PSI,Sus_coil_lot2$PSI,paired = T) #compare the mean difference between two samples
+#t.test(Sus_Coil_Sample$PSI,Sus_coil_lot3$PSI,paired = T) #compare the mean difference between two samples
+
+t.test(subset(Suspension_Coil_Table,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
+t.test(subset(Suspension_Coil_Table,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+t.test(subset(Suspension_Coil_Table,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
+
+
+
 
